@@ -69,7 +69,7 @@ h4 {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 61.5%;
   scroll-behavior: smooth;
 }
 
@@ -89,8 +89,9 @@ ul {
 }
 
 img {
-  max-width: 100%;
   display: block;
+  width: 50%;
+  height: auto;
 }
 
 input,
@@ -114,6 +115,16 @@ main {
   overflow: hidden;
 }
 
+.main-menu-label {
+  font-size: 25x;
+  font-weight: bold;
+  font-style: italic;
+  color: #d3d0d0; /* Change to your preferred color */
+  text-align: center;
+ 
+}
+
+
 body {
   font-family: var(--font-family-primary);
   font-size: var(--fs-md);
@@ -122,13 +133,20 @@ body {
   margin-top: var(--height-header);
 }
 
+.home__name {
+   
+    font-style: italic; /* Optional: to make it bold */
+
+}
+
+
 /* Dark Theme 
 --------------------------------------------------------------*/
 .dark-theme {
   background-color: var(--color-secondary);
   color: var(--color-gray-light);
   --color-title: #fff;
-  --shadow-header: 0px 5px 10px rgba(0, 0, 0, 0.09);
+  --shadow-header: 0px 5px 10px rgba(247, 17, 17, 0.09);
 }
 
 .dark-theme .header,
@@ -357,8 +375,8 @@ body {
 }
 
 .home__title {
-  font-size: var(--fs-biggest);
-  margin-bottom: 2rem;
+font-size: 100;
+  margin-bottom: 0.5rem;
 }
 
 .home__description {
